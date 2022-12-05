@@ -10,7 +10,7 @@ int main(){
   int currSum = 0;
   char buffer[1024];
 
-  FILE * fp = fopen("d1p1.txt", "r");
+  FILE * fp = fopen("day1.txt", "r");
   if (fp == NULL){
     printf("Error opening file.\n");
     return(-1);
