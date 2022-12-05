@@ -34,11 +34,6 @@ int main(){
   fgets(buffer, sizeof(buffer), fp);
   while(!feof(fp)){
     if ((strcmp(buffer, "\r\n") == 0) || (strcmp(buffer, "\n") == 0)){
-      printf("\n");
-      printf("larg1 = %d\n", largestSum1);
-      printf("larg2 = %d\n", largestSum2);
-      printf("larg3 = %d\n", largestSum3);
-      printf("currSum = %d\n", currSum);
       if (largestSum1 == 0){
         largestSum1 = currSum;
       }
@@ -70,9 +65,6 @@ int main(){
           }
         }
       }
-      printf("new larg1 = %d\n", largestSum1);
-      printf("new larg2 = %d\n", largestSum2);
-      printf("new larg3 = %d\n", largestSum3);
       currSum = 0;
     }
     else{
