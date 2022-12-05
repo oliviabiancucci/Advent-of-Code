@@ -1,4 +1,4 @@
-//Advent of Code 2022 Day 2 Part 1 by Olivia Biancucci
+//Advent of Code 2022 Day 2 Part 2 by Olivia Biancucci
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
